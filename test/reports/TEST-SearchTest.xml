@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="SearchTest" filepath="test/integration/search_test.rb" skipped="0" failures="0" errors="0" tests="6" assertions="51" time="2.5396590000600554">
+    <testcase name="test_search_form_should_have_search_fields" lineno="6" classname="SearchTest" assertions="3" time="0.3693269999930635">
+    </testcase>
+    <testcase name="test_search_may_return_no_results" lineno="99" classname="SearchTest" assertions="7" time="0.4116579999681562">
+    </testcase>
+    <testcase name="test_search_by_cuisine" lineno="14" classname="SearchTest" assertions="11" time="0.4299150000442751">
+    </testcase>
+    <testcase name="test_search_by_both_cuisine_and_ingredient" lineno="69" classname="SearchTest" assertions="13" time="0.4384859999991022">
+    </testcase>
+    <testcase name="test_find_all_when_no_criteria_given" lineno="117" classname="SearchTest" assertions="5" time="0.4376310000079684">
+    </testcase>
+    <testcase name="test_search_by_ingredient" lineno="41" classname="SearchTest" assertions="12" time="0.45264200004749">
+    </testcase>
+  </testsuite>
+</testsuites>

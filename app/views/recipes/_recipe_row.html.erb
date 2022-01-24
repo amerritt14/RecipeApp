@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%= recipe.name %>
+</p>
+<p>
+  <b>Instructions:</b>
+  <%= recipe.instructions %>
+</p>
+<p>
+  <b>Cooking time:</b>
+  <%= "#{recipe.cooking_time} min" %>
+</p>
+<p>
+  <b>Ingredients:</b>
+  <%- recipe.ingredients.each do |ingredient| %>
+    <%= ingredient.name %>
+  <% end %>
+</p>
